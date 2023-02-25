@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
-    <title>Laravel</title>
+    <title>Pizza House</title>
 </head>
 <body>
     @yield('content')
