@@ -7,3 +7,37 @@ html, body {
     border-bottom: 2px solid #5e2195;
     width: fit-content;
 }
+
+
+.pizza-item{
+    background-color: #f4f4f4;
+    text-align: left !important;
+}
+
+.pizza-item img{
+    width: 60px;
+    display: inline-block;
+}
+
+.pizza-item h4{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.pizza-item a{
+    color: #777;
+    text-decoration: none !important;
+}
+
+.create-pizza {
+    background-color: #f4f4f4;
+}
+
+.btn-purple {
+    background-color: #5e2195;
+}
+
+footer {
+    background-color: #f4f4f4;
+}
+

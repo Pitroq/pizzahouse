@@ -10,7 +10,7 @@
 <body>
     @yield('content')
 
-    <footer class="p-3 bg-light text-center">
+    <footer class="p-3 text-center">
         Copyright 2023 Pizza House
     </footer>
 </body>
