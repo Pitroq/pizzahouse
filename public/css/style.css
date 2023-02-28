@@ -37,7 +37,14 @@ html, body {
     background-color: #5e2195;
 }
 
+
+.pizza-details {
+    background-color: #f4f4f4;
+}
 footer {
     background-color: #f4f4f4;
+}
+a {
+    color: #5e2195;
 }
 

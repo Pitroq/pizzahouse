@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-<div class="wrapper pizza-details">
+<div class="pizza-details container p-3 my-4">
     <h1>Order for {{ $pizza->name }}</h1>
     <p class="type">Type - {{ $pizza->type }}</p>
     <p class="base">Base - {{ $pizza->base }}</p>
@@ -14,8 +14,10 @@
     <form action="/pizzas/{{ $pizza->id }}" method="POST">
     @csrf
     @method('DELETE')
-    <button>Complete order</button>
+    <input type="submit" class="btn btn-dark btn-purple" value="Complete order">
     </form>
 </div>
-<a href="/pizzas" class="back"><- Back to all pizzas</a>
+<div class="text-center p-3">
+    <a href="/pizzas" class="back"><- Back to all pizzas</a>
+</div>
 @endsection
