@@ -34,7 +34,7 @@ html, body {
 }
 
 .btn-purple {
-    background-color: #5e2195;
+    background-color: #5e2195 !important;
 }
 
 
@@ -44,7 +44,3 @@ html, body {
 footer {
     background-color: #f4f4f4;
 }
-a {
-    color: #5e2195;
-}
-
